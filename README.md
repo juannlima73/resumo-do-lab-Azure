@@ -142,3 +142,73 @@ Inclui processador virtual, memória, armazenamento e rede
 - Facilidade de uso para gerenciar seus recursos externos e da Azure com um único serviço, DNS.
 - As redes vituais personalizáveis permitem que você use nomes de dominio privados e totalmente perfonalizados em suas redes virtuais privadas.
 - Os registrosd de alias dão suporte a conjunto de registros de alias para apontar diretamente par aum recurso do Azure.
+
+#Criando uma Conta Microsoft e Assinatura Azure estudantil#
+
+*Criação conta estudante (duração 1 ano)*
+
+Passo 1 - https://azure.microsoft.com/pt-br/free/students 
+Passo 2 - Experimentar gratuitamente (precisa ter uma conta de email na microsoft estudantil)
+Passo 3 - Insira login e senha da Microsoft ou crie uma conta nova estudantil
+Passo 4 - Insira dados pessoais (não precisa de dados de pagamento nessa modalidade)
+Passo 5 - Acessar o https://learn.microsoft.com/pt-br/training/
+
+#Benefícios da computação em Nuvem#
+
+*Alta disponibilidade:* Esta se referindo ao acordo de nivel de serviços (SLA) e que se ficaar indiponivel além do prazo acertato em contrato o cliente recebe créditos da microsoft para utilizar em futuras faturas
+Existe vários níveis de disponibilidade (ex: 99%; 99,9%; 99,95%) que está previsto em contrato que demonstrar o total de tempo que o serviço/produto ficará indisponivel.
+- Definição: A alta disponibilidade se concentra em garantir a disponibilidade máxima, indipendente de interrupção ou evento que possam ocorrer.
+
+*Escalabilidade e Elasticidade:* 
+Escalabilidade:
+- Escalabilidade refere-se a capacidade de ajustar recursos para atender a demanda.
+- A capacidade de escalar significa que você poderá adicionar mais recuros para lidar melhor com o aumento da demanda.
+- O outro beneficio da escalabilidade é que você não está pagando além do necessário pelos serviços.
+- Como a nuvem é um modelo baseado em consumo, você paga apenas pelo que usa.
+- Se a demansa cair você poderá reduzir seus recursos e assim, reduzir seus custos.
+- Com a escala vertical, se você esitvesse desenvolvendo um aplicativo e precisasse de mais capacidade de processamento, poderia escalar verticalmente para adicionar mais CPUs ou RAM  a máquina virtual
+
+Elasticidade:
+- Exemplo mais claro pode ser da sacionalidade que pode ocorrer entre determinados períodos (Black Friday) aonde o usuário poderá configurar regras de negócios que se chegar a determinada quantia de consumo de máquina virtual ele automaticamente ou manualmente ira disponibilizar uma nova máquina. É possivel também determinar um limite de total de maquinas
+- O conceito de elasticidade é a possibilidade de poder expandir para os lados.
+
+*Confiabilidade, Previsibilidade e Segurança*
+Confiabilidade:
+- Ter resiliência de um sistema que se recupera de falhas e continua funcionando
+- Devido ao desgin descentralizado, a nuvem naturalmente dá suporte a uma infraestrutura confiável e resiliente.
+- Com um design descentralizado, a nuvem permite que você tenha recursos implantados em várias regiões do mundo.
+- Com essa escala global, mesmo que ocorra um evento catastrófico em uma região, as outras regiões ainda estarão em funcionamento.
+
+Previsibilidade:
+- A previsibilidade na nuvem permite que você avance com confiança, seja no desempenho ou no custo. Ambas são influenciadas pelo Microsoft Azure Well Architected Framework.
+
+Segurança:
+- A nuvem oferece ferramentas de segurança que atendem as necessidades dos cloentes mas, é importante lembrar que a implementação de muitas delas devem ser realizadas pelo cliente.
+- As atualizações e gestão de recursos e algo que deve ser feito pelo user.
+- Responsabilidade do Provider: Oferecer recursos e serviços para antender minha demanda
+- Responsabilidade do User: Aplicar recursos e serviços oferecidos pelo Provder.
+
+*Governança e Gerenciabilidade*
+Governança
+- A auditoria baseada em nuvem ajuda a sinalizar qualquer recursos que esteja fora de conformidade com seus padrões coorporativos.
+- Dependendo do seu modelo operacional, patches de software e atualizações também pode ser aplicados automaticamente o que ajuda na governança e na segurança.
+
+Gerenciabilidade:
+- Diz respeito a gerenciar seus recursos de nuvem. Por exemplo:
+Escalar automaticamente a implantação de recursos com base na necessidade
+Implantar recuros com base em um modelo pré-configurado, removendo a necessidade de configuração manual.
+O Gerenciamento na nuvem diz respeito a maneira de gerenciar seu ambiente de nuvem e seus recuros, por exemplo (Portal Web, cmd, APIS, Power Shell)
+
+#Criando máquinas virtuais na Azure
+
+Quanto mais 9 após a virgula tiver, menor será o tempo de inatividade (SLA)
+
+![image](https://github.com/user-attachments/assets/8e9c1b00-6c57-4c3f-b77c-ca35279554ba)
+
+*Opções de disponibilidade*
+
+Irá implicar diretamente em qual regra de SLA que iremos nos enquadrar (ler a documentação de qual opção de disponilidade é correspondente pra cada faixa do SLA)
+
+![image](https://github.com/user-attachments/assets/427e9c9e-60ac-48bd-a50d-e7aedda16677)
+![image](https://github.com/user-attachments/assets/62f7de57-7d04-48e1-904d-cd494d15a628)
+
