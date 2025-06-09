@@ -212,3 +212,32 @@ Irá implicar diretamente em qual regra de SLA que iremos nos enquadrar (ler a d
 ![image](https://github.com/user-attachments/assets/427e9c9e-60ac-48bd-a50d-e7aedda16677)
 ![image](https://github.com/user-attachments/assets/62f7de57-7d04-48e1-904d-cd494d15a628)
 
+#Tipos de Seriços de Nuvem#
+
+*IAAS* - Infraestrutura como serviço (menor responsabilidade Microsoft)
+
+Exemplo: Servidores e armazenamento; Firewalls/Segurança de rede; Planta física/edificio do datacenter
+ 
+*PAAS* - Plataforma como serviço (medio responsabilidade Microsoft)
+
+Exemplo: Servidores e armazenamento; Firewalls/Segurança de rede; Planta física/edificio do datacenter; Sistemas Operacionais; Ferramentas para desenvolvedores, análise de negócios de gerenciamento de database
+
+*SAAS* - Software como serviço (maior responsabilidade Microsoft)
+
+Exemplo: Servidores e armazenamento; Firewalls/Segurança de rede; Planta física/edificio do datacenter; Sistemas Operacionais; Ferramentas para desenvolvedores, análise de negócios de gerenciamento de database; Aplicativos/APP Hospedados
+
+
+| Modelo     | Gerenciado pelo Cliente | Gerenciado pelo Provedor      |
+| ---------- | ----------------------- | ----------------------------- |
+| On-premise | Tudo                    | Nada                          |
+| IaaS       | SO, aplicativos, dados  | Infraestrutura                |
+| PaaS       | Aplicações, dados       | Infraestrutura + SO           |
+| SaaS       | Uso dos apps            | Todo o resto (infra, SO, app) |
+
+
+#Criando um banco de dados SQL no Azure#
+
+Banco de dados SQL (![image](https://github.com/user-attachments/assets/ffffcb26-3c32-4b6f-935c-fd62a34422da))
+Criando banco de dados (![image](https://github.com/user-attachments/assets/867e7e54-1b0c-4aee-bea2-271f0ec0841b))
+
+
